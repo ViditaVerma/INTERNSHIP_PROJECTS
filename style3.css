@@ -8,7 +8,7 @@ body {
     margin: 0;
     background-color: #b277e6;
 }
-
+/* MAIN BODY OF CALCULATOR */
  .calculator {
     width: 400px;
     margin: 50px auto;
@@ -18,7 +18,7 @@ body {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(222, 128, 206, 0.1);
 }
-
+/* THE DISPLAY BAR */
 #display {
     width: 100%;
     height: 50px;
@@ -46,6 +46,7 @@ button {
     background-color: #cec7c7ad;
     cursor: pointer;
 }
+/* EQUALS TO OPERATOR */
 .operator {
     background-color: #be57cd;
     color: #fff;
@@ -55,14 +56,14 @@ button {
 .operator:hover {
     background-color: #590971;
 }
-
+/* CLEAR AND DELETE BUTTON */
 .sp-operator{
     background-color: rgb(245, 213, 125);
 }
 .sp-operator:hover{
     background-color: #e0e0e0;
 }
-
+/* ALL BUTTONS HOVER */
 button:hover {
     background-color: #e0e0e0;
 }
