@@ -1,0 +1,266 @@
+body, h1, h2, p, ul, li, a, form, input {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #120d0d;
+    background: #bf3cb4bb;
+}
+
+.container {
+    width: 40%;
+    margin: auto;
+    overflow: hidden}
+
+header {
+    background: #dfa89bc7;
+    color: #fff;
+    padding: 1.1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 1rem;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    color: #080808;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline;
+}
+
+.resume-btn {
+    background: #dbe459a2;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    color: #fff;
+}
+
+    .hire-me-btn {
+        display: inline-block;
+        background: #333;
+        color: #fff;
+        padding: 0.7rem 1.5rem;
+        border-radius: 4px;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+.hire-me-btn:hover {
+    background: #555;
+}
+    
+
+#home {
+    background: #eabc7b9f;
+    padding: 4rem 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.intro {
+    text-align: center;
+     /* margin:10%; */
+    /* position:fixed; */
+ } 
+
+.profile-img {
+    border-radius: 40%;
+    width: 300px;
+    height: 300px;
+    object-fit:cover;
+    margin-bottom: 2rem;
+    margin-right: 5%;
+    
+}
+
+#home h2 {
+    margin-bottom: 1rem;
+}
+
+#about {
+    padding: 4rem 0;
+    background: #f1f1aece;
+    border-bottom: 1px solid #ddd;
+}
+
+#about h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: larger;
+}
+
+#about p {
+    text-align: center;
+    max-width: 900px;
+    margin: auto;
+}
+
+#skills {
+    background: #b9dc72cf;
+    padding: 2rem 0;
+    border-bottom: 1px solid #b3ca8fcb;
+}
+
+#skills h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+#skills ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+#skills li {
+    display: flex;
+    flex-direction: column;
+    margin: 0 1rem;
+    padding: 0.5rem 1rem;
+    /* background: #2d7e5e; */
+    border-radius: 4px;
+    
+}
+
+#projects {
+    padding: 2rem 0;
+    background: #e6e6c6;
+    border-bottom: 1px solid #ddd;
+}
+
+#projects h2 {
+    text-align: center;
+    margin-bottom: 5rem;
+    
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8rem;
+    justify-content: center;
+}
+
+.gallery-item {
+    flex: 6 6 calc(33.333% - 1rem);
+    text-align: center;
+    
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 25vh;
+    padding: 15% 5%;
+    border-radius: 5px;
+}
+
+.gallery-item p {
+    margin-top: 0.5rem;
+}
+
+#hire {
+    background: #e6cded;
+    padding: 2rem 0;
+    border-bottom: 2px solid #ddd;
+    height: 50%;
+}
+
+#hire h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: x-large;
+}
+
+#hire p {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: large;
+}
+
+.hire-me-btn {
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    padding: 0.7rem 1.5rem;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hire-me-btn:hover {
+    background: #555;
+}
+
+#contact {
+    background: #e4debe;
+    padding: 2rem 0;
+    border-bottom: 1px solid #ddd;
+}
+
+#contact h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+form {
+    max-width: 600px;
+    margin: auto;
+    background: #e38f8f;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #949193d6;
+}
+
+form label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+form input[type="text"] ,
+form input[type="email"] ,
+form input[type="tel"] {
+    width: 100%;
+    padding: 0.7rem;
+    margin-bottom: 1rem;
+    border: 1px solid #d786bee4;
+    border-radius: 4px;
+}
+
+form input[type="submit"] {
+    background: #333;
+    color: #fff;
+    padding: 0.7rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background: #555;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
