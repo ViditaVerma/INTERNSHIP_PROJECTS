@@ -1,0 +1,256 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+  }
+
+  /* Navigation Menu */
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #0077cc;
+    padding: 15px;
+    color: white;
+  }
+
+  nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-weight: bold;
+  }
+
+  nav a:hover {
+    background-color: #005fa3;
+    border-radius: 5px;
+  }
+
+  /* Dropdown */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    color: #333;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .dropdown:hover a {
+    background-color: #005fa3;
+  }
+
+  
+
+  /* Header Section */
+  .header {
+    background-image: url("vidhi pic/gita-02.jpg"); /* Replace with an appropriate image */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: rgb(246, 248, 253);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .header h1 {
+    font-size: 3.5rem;
+  }
+
+  .header p {
+    font-size: 1.5rem;
+    margin: 20px 0;
+  }
+
+  /* Hero Section */
+  .hero {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px;
+    background-color: #ffffff;
+  }
+
+  .hero img {
+    max-width: 40%;
+    border-radius: 10px;
+  }
+
+  .hero .text {
+    max-width: 50%;
+    padding: 20px;
+  }
+
+  .hero h2 {
+    font-size: 2.5rem;
+    color: #0077cc;
+  }
+
+  .hero p {
+    font-size: 1.2rem;
+    margin: 20px 0;
+  }
+
+  .hero .cta {
+    padding: 15px 30px;
+    background-color: #0077cc;
+    color: white;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s;
+  }
+
+  .hero .cta:hover {
+    background-color: #005fa3;
+  }
+
+  /* Features Section */
+  .teachings {
+    padding: 60px;
+    background-color: #f0f0f0;
+    text-align: center;
+  }
+
+  .teachings h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #0077cc;
+  }
+
+  .teachings .feature-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  .feature-list .feature {
+    max-width: 23%;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 15px;
+    border-radius: 10px;
+  }
+
+  .feature h3 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+  }
+
+  .feature p {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+
+  /* Testimonials Section-QUOTES SECTION */
+  .testimonials {
+    padding: 60px;
+    text-align: center;
+  }
+
+  .testimonials h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #0077cc;
+  }
+
+  .testimonials .quote {
+    max-width: 60%;
+    margin: 0 auto 40px;
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+
+  .testimonials .quote p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+
+  .testimonials .quote span {
+    font-weight: bold;
+  }
+
+  /* Call-to-end section */
+  .end-sec {
+    background-color: #0077cc;
+    color: white;
+    padding: 60px;
+    text-align: center;
+  }
+
+  .end-sec h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+
+  .end-sec p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+  }
+    .end-sec .end{
+    padding: 15px 30px;
+    background-color: white;
+    color: #0077cc;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s;
+  }
+
+  .end-sec .end:hover {
+    background-color: #f5f5f5;
+  }
+
+  /* Footer */
+  footer {
+    background-color: #2336dc91;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+
+  footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+
+  footer a:hover {
+    text-decoration: underline;
+  }
+
+  footer .social-links img {
+    width: 24px;
+    margin: 0 10px;
+  }
+
